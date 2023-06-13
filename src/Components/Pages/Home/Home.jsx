@@ -1,16 +1,19 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Banner from "../../Shared_Pages/Banner/Banner";
 import Category from "../../Shared_Pages/Category/Category";
 import Services from "../../Shared_Pages/Services/Services";
-import { BiArrowFromBottom } from "react-icons/bi";
+// import { BiArrowFromBottom } from "react-icons/bi";
+import Games from "../../Shared_Pages/Our_Games/Games";
+import Reviews from "../../Shared_Pages/Reviews/Reviews";
 
 const Home = () => {
   return (
-    <div className="relative">
+    <div className="relative text-white">
       <Banner />
       <Services />
       <Category />
-      {/* Product Section Here  */}
+      <Games />
+      <Reviews />
 
       {/* ToDo Top Button  */}
       {/* <Link to={""}>
